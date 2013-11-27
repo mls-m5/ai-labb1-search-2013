@@ -47,7 +47,7 @@ def main():
     graph.loadFile()
     graph.draw()
 
-    gui.apGui.apwindow.start()
+    gui.start()
 
 
 if __name__ == "__main__":

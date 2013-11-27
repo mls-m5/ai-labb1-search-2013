@@ -2,7 +2,7 @@ from math import sqrt
 
 
 def recreatePath(node):
-    print("recreating path")
+    #print("recreating path")
     if node.parent is None:
         return [node]
     else:
@@ -49,7 +49,7 @@ def evaluatePath(node, targetNode):
         return 0
     for node in path[1:]:
         distance += NodeDistance(node, node.parent)
-        #return distance
+        #return die
     #return NodeDistance(node, targetNode)
     return distance + NodeDistance(path[-1], targetNode)
 
