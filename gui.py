@@ -1,7 +1,7 @@
 
 
 
-from Tkinter import *
+from tkinter import *
 
 
 class apGui(Canvas):

@@ -60,7 +60,7 @@ class Graph:
 		for n in self.nodes:
 			n.parent = None			
 			n.Score = 0
-			n.Explored = False
+			n.Explored = 0
 	
 	def drawPath(self, path):
 		if len(path) < 2: 
